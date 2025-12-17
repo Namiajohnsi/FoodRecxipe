@@ -5,13 +5,11 @@ body {
 }
 
 
-/* LOGO */
 .logo {
     width: 40px;
     height: 40px;
 }
 
-/* NAVBAR */
 .nav-link {
     font-size: 16px;
     position: relative;
@@ -32,7 +30,6 @@ body {
     width: 100%;
 }
 
-/* CAROUSEL */
 .carousel-img {
     width: 80%;
     height: 500px;
@@ -40,19 +37,23 @@ body {
     margin: auto;
     border-radius: 15px;
 }
+.carousel-bg {
+  background: linear-gradient(135deg, #341590, #ffe8cc);
+  border-radius: 10px;
+  padding: 50px 20px;
+}
 
 .carousel-caption {
     background: rgba(0,0,0,0.6);
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
 }
 
-/* INTRO */
 .intro-section {
   background-color: #0b1f33;   /* corporate dark blue */    padding: 60px 0;
   color: #ffffff;}
 
-/* CARDS */
+
 .recipe-card {
     border: none;
     transition: transform 0.3s, box-shadow 0.3s;
@@ -68,7 +69,7 @@ body {
     object-fit: cover;
 }
 
-/* BUTTON */
+
 .btn-primary {
     background-color: #0b5ed7;
     border: none;
@@ -80,8 +81,8 @@ section.container {
 }
 .bottom-btn {
   position: fixed;
-  bottom: 20px;     /* distance from bottom */
-  right: 20px;      /* distance from right */
+  bottom: 20px;     
+  right: 20px;      
   padding: 12px 20px;
   background-color: #494e57;
   color: white;
