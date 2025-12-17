@@ -1,0 +1,111 @@
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #f4f6f9;  
+  color: #1a1a1a;
+}
+
+
+/* LOGO */
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+/* NAVBAR */
+.nav-link {
+    font-size: 16px;
+    position: relative;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    background: #ffc107;
+    left: 0;
+    bottom: 0;
+    transition: 0.3s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+/* CAROUSEL */
+.carousel-img {
+    width: 80%;
+    height: 500px;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 15px;
+}
+
+.carousel-caption {
+    background: rgba(0,0,0,0.6);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* INTRO */
+.intro-section {
+  background-color: #0b1f33;   /* corporate dark blue */    padding: 60px 0;
+  color: #ffffff;}
+
+/* CARDS */
+.recipe-card {
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.recipe-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
+}
+
+.recipe-card img {
+    height: 180px;
+    object-fit: cover;
+}
+
+/* BUTTON */
+.btn-primary {
+    background-color: #0b5ed7;
+    border: none;
+}
+section.container {
+  background-color: #ffffff;
+  padding: 60px;
+  border-radius: 6px;
+}
+.bottom-btn {
+  position: fixed;
+  bottom: 20px;     /* distance from bottom */
+  right: 20px;      /* distance from right */
+  padding: 12px 20px;
+  background-color: #494e57;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+  text-decoration: none;
+}
+
+.bottom-btn:hover {
+  background-color: #393b3d;
+}
+.load-more-btn {
+  padding: 12px 35px;
+  border-radius: 50px;
+  border: 2px solid #0b5ed7;
+  background: transparent;
+  color: #0b5ed7;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.load-more-btn:hover {
+  background-color: #0b5ed7;
+  color: #fff;
+}
